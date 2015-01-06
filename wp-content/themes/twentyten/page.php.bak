@@ -1,0 +1,56 @@
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
+ */
+
+get_header(); ?>
+
+
+<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+			<div class="post">
+			<div class="post-bgtop">
+		<div class="post-bgbtm">
+<h1 class="title"><a href="#"></a></h1>
+				
+<div class="entry">
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+				
+						<?php the_content(); ?>
+						
+					
+				
+
+<?php endwhile; ?>
+		</div>
+			</div>
+			</div>
+			</div>
+
+		
+<div style="clear: both;">&nbsp;</div>
+		</div>
+<div style="clear: both;">&nbsp;</div>
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+	<div id="footer">
+		<p>Dayalbagh Educational Institute</p>
+	</div>
+	<!-- end #footer -->
+</div>
+</body>
+</html>

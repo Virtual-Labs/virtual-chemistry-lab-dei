@@ -1,0 +1,56 @@
+<?php
+/**
+ * The main template file.
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query. 
+ * E.g., it puts together the home page when no home.php file exists.
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
+ */
+
+get_header(); ?>
+
+		<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+			<div class="post">
+			<div class="post-bgtop">
+		<div class="post-bgbtm">
+<h1 class="title"><a href="#"></a></h1>
+				
+<div class="entry">
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+				
+						<?php the_content(); ?>
+		
+<?php endwhile; ?>
+		</div>
+			</div>
+			</div>
+			</div>
+
+		
+<div style="clear: both;">&nbsp;</div>
+		</div>
+<div style="clear: both;">&nbsp;</div>
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+	<div id="footer">
+		<p>Virtual Chemistry Lab<br/>
+Dayalbagh Educational Institute, Dayalbagh, Agra
+</p>
+	</div>
+	<!-- end #footer -->
+</div>
+</body>
+</html>
+
