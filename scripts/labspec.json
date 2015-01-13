@@ -25,7 +25,7 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
+                    "department": "Faculty of Science", 
                     "institute": "Dayalbagh Educational Institute", 
                     "name": "Prof. Manmohan Srivastava", 
                     "organization": "", 
@@ -36,13 +36,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "phani@iiit.ac.in", 
+                        "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
                     "institute": "", 
-                    "name": "Phani Phani", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
@@ -51,13 +51,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "kumarsrijan@students.iiit.ac.in", 
+                        "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Kumar Srijan", 
+                    "department": "Faculty of Science", 
+                    "institute": "Dayalbagh Educational Institute", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
@@ -66,13 +66,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "jayaguru.pandaug08@students.iiit.ac.in", 
+                        "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Jay Panda", 
+                    "institute": "Dayalbagh Educational Institute", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
@@ -81,13 +81,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "shashank.sharmaug08@students.iiit.ac.in", 
+                        "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Shashank Sharma", 
+                    "institute": "Dayalbagh Educational Institute", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Computer Science & Engineering"
+                "Faculty of Science"
             ], 
             "id": "cse02", 
             "integration_level": 5, 
-            "name": "Computer Programming", 
+            "name": "Virtual Chemistry Lab", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
