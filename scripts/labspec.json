@@ -25,9 +25,9 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "Faculty of Science", 
+                    "department": "", 
                     "institute": "Dayalbagh Educational Institute", 
-                    "name": "Prof. Manmohan Srivastava", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -41,7 +41,7 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "", 
+                    "institute": "Dayalbagh Educational Institute", 
                     "name": "", 
                     "organization": "", 
                     "role": "Lab RA", 
@@ -57,9 +57,9 @@
                     }, 
                     "department": "Faculty of Science", 
                     "institute": "Dayalbagh Educational Institute", 
-                    "name": "", 
+                    "name": "Prof. M.M. Srivastava", 
                     "organization": "", 
-                    "role": "Lab RA", 
+                    "role": "", 
                     "title": "", 
                     "web": ""
                 }, 
@@ -74,7 +74,7 @@
                     "institute": "Dayalbagh Educational Institute", 
                     "name": "", 
                     "organization": "", 
-                    "role": "Lab RA", 
+                    "role": "", 
                     "title": "", 
                     "web": ""
                 }, 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Faculty of Science"
+                "Virtual Chemistry Lab"
             ], 
             "id": "cse02", 
             "integration_level": 5, 
-            "name": "Virtual Chemistry Lab", 
+            "name": "", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
