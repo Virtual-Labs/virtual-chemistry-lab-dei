@@ -6,7 +6,7 @@
                 "build_steps": {
                     "build": ["make -C ../src"], 
                     "configure": [], 
-                    "post_build": ["cd /var/www/","./automate.sh"], 
+                    "post_build": ["./root/VMManager/lab-repo-cache/virtual-chemistry-lab-dei/build/automate.sh"], 
                     "pre_build": [], 
                     "status": []
                 }, 
