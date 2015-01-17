@@ -6,7 +6,7 @@
                 "build_steps": {
                     "build": ["make -C ../src"], 
                     "configure": [], 
-                    "post_build": [], 
+                    "post_build": ["cd /var/www/","./automate.sh"], 
                     "pre_build": [], 
                     "status": []
                 }, 
