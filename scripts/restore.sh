@@ -32,13 +32,16 @@ fi
 # stop ADS services before restoring..
 $SCRIPTS_DIR/stop
 # restore from the dump folder
-mysqldump $DB_NAME1 < $DB_NAME1
+mysql -u root -Bse "create database $DB_NAME1;"
+mysql -u root -Bse "create database $DB_NAME2;"
+
+mysql -u root $DB_NAME1 < $DB_NAME1
 if [ $? -ne 0 ]; then
   echo "Error: Something went wrong while restoring db dump."
   echo "Aborting restore."
   exit 1;
 fi
-mysqldump $DB_NAME2 < $DB_NAME2
+mysql -u root $DB_NAME2 < $DB_NAME2
 if [ $? -ne 0 ]; then
   echo "Error: Something went wrong while restoring db dump."
   echo "Aborting restore."
