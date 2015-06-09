@@ -33,8 +33,17 @@ fi
 $SCRIPTS_DIR/stop
 # restore from the dump folder
 mysql -u root -Bse "create database $DB_NAME1;"
+if [ $? -ne 0 ]; then
+  echo "Error: Something went wrong while creating database $DB_NAME1."
+  echo "Aborting...."
+  exit 1;
+fi
 mysql -u root -Bse "create database $DB_NAME2;"
-
+if [ $? -ne 0 ]; then
+  echo "Error: Something went wrong while creating database $DB_NAME2."
+  echo "Aborting...."
+  exit 1;
+fi
 mysql -u root $DB_NAME1 < $DB_NAME1
 if [ $? -ne 0 ]; then
   echo "Error: Something went wrong while restoring db dump."
