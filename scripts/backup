@@ -28,6 +28,8 @@ if [ $? -ne 0 ]; then
   exit 1;
 fi
 
+#clean up data
+rm $DB_NAME1 $DB_NAME2
 echo "Backup successful."
 exit 0;
 
